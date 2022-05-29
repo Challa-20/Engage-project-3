@@ -76,7 +76,7 @@ title = 'Guardians of the Galaxy'
 # Find the movies id
 movie_id = df[df.Title == title]['Rank'].values[0] 
 
-print(" \nMovie id")
+print(" \nMovie id of "+title)
 print(movie_id)
 
 # Create a list of enumerations for the similarity score [ (movie_id, similarity score) , (...) ]
